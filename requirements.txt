@@ -1,2 +1,2 @@
 emonoda
-homeassistant_api==4.1.1
+homeassistant_api==4.2.2

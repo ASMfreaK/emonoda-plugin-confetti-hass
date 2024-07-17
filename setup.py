@@ -9,7 +9,7 @@ install_requires = list(filter(None, (this_directory / "requirements.txt").read_
 
 setup(
     name='emonoda-plugin-confetti-hass',
-    version="1.0.0",
+    version="1.0.1",
     url="https://github.com/ASMfreaK/emonoda-plugin-confetti-hass",
     license="GPLv3",
     author="Pletenev Pavel",

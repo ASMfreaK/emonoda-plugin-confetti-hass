@@ -90,8 +90,8 @@ class Plugin(WithStatuses):  # pylint: disable=too-many-instance-attributes
         with Client(
             self.__api_url, self.__token,
         ) as client:
-            pn = client.get_domain("persistent_notification")
-            create_pn = pn.get_service("create")
+            pn = client.get_domain("notify")
+            create_pn = pn.get_service("persistent_notification")
             for msg in messages:
                 create_pn.trigger(**msg)
 
